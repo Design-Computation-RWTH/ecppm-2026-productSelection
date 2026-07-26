@@ -1,0 +1,51 @@
+<ids:ids xmlns:ids="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/ids_09.xsd">
+<ids:specification name="Heat Pump" ifcVersion="IFC4" identifier="04H2trtjXBdwH6os4gWjhiK" description="Requirements for dynamic heat output">
+    <ids:applicability>
+        <ids:entity>
+            <ids:name>
+                <ids:simpleValue>IFCBUILDINGELEMENTPROXYTYPE</ids:simpleValue>
+            </ids:name>
+        </ids:entity>
+    </ids:applicability>
+    <ids:requirements>
+        <ids:extension dataType="IFCREAL">
+        	<ids:resource xlink:href="https://www.localhost.de/heatoutput"/>
+        	<ids:value>
+        		<ids:simpleValue>4.27</ids:simpleValue>
+        	</ids:value>
+        </ids:extension> 
+        <ids:property dataType="IFCINTEGER">
+            <ids:propertySet>
+                <ids:simpleValue>Pset_performance-data</ids:simpleValue>
+            </ids:propertySet>
+            <ids:baseName>
+                <ids:simpleValue>Heat pump supply temperature</ids:simpleValue>
+            </ids:baseName>
+            <ids:value>
+                <ids:simpleValue>35</ids:simpleValue>
+            </ids:value>
+        </ids:property>
+        <ids:property dataType="IFCINTEGER">
+            <ids:propertySet>
+                <ids:simpleValue>Pset_performance-data</ids:simpleValue>
+            </ids:propertySet>
+            <ids:baseName>
+                <ids:simpleValue>Maximum heat source temperature</ids:simpleValue>
+            </ids:baseName>
+            <ids:value>
+                <ids:simpleValue>25</ids:simpleValue>
+            </ids:value>
+        </ids:property>
+        <ids:property dataType="IFCINTEGER">
+            <ids:propertySet>
+                <ids:simpleValue>Pset_performance-data</ids:simpleValue>
+            </ids:propertySet>
+            <ids:baseName>
+                <ids:simpleValue>Minimum heat source temperature</ids:simpleValue>
+            </ids:baseName>
+            <ids:value>
+                <ids:simpleValue>-10</ids:simpleValue>
+            </ids:value>
+        </ids:property>
+    </ids:requirements>
+</ids:specification>

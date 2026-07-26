@@ -1,0 +1,47 @@
+<ids:ids xmlns:ids="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/ids_09.xsd">
+<ids:specifications>
+	<ids:specification name="Heat Pump Geometry" ifcVersion="IFC4" identifier="04H2trtjXBdwH6os4gWjhiK" description="Requirements to check the geometry sizes in x, y and z direction">
+		<ids:applicability>
+			<ids:entity>
+				<ids:name>
+					<ids:simpleValue>IFCBUILDINGELEMENTPROXYTYPE</ids:simpleValue>
+				</ids:name>
+			</ids:entity>
+		</ids:applicability>
+		<ids:requirements>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_dimention</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Height</ids:simpleValue>
+				</ids:baseName>
+				<ids:value>
+					<ids:simpleValue></ids:simpleValue>
+				</ids:value>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_dimension</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Width</ids:simpleValue>
+				</ids:baseName>
+				<ids:value>
+					<ids:simpleValue></ids:simpleValue>
+				</ids:value>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_dimension</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Depth</ids:simpleValue>
+				</ids:baseName>
+				<ids:value>
+					<ids:simpleValue></ids:simpleValue>
+				</ids:value>
+			</ids:property>
+		</ids:requirements>
+	</ids:specification>
+</ids:specifications>

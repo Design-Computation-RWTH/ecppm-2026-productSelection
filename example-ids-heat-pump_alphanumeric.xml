@@ -1,0 +1,284 @@
+<ids:ids xmlns:ids="http://standards.buildingsmart.org/IDS" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS http://standards.buildingsmart.org/IDS/ids_09.xsd">
+<ids:specifications>
+	<ids:specification name="Heat Pump Alphanumeric" ifcVersion="IFC4" identifier="04H2trtjXBdwH6os4gWjhiK" description="Alphanumeric requirements for the heat pump selection">
+		<ids:applicability>
+			<ids:entity>
+				<ids:name>
+					<ids:simpleValue>IFCBUILDINGELEMENTPROXYTYPE</ids:simpleValue>
+				</ids:name>
+			</ids:entity>
+		</ids:applicability>
+		<ids:requirements>
+			<ids:extension dataType="IFCREAL">
+				<ids:resource xlink:href="https://www.localhost.de/heatoutput"/>
+				<ids:value>
+					<ids:simpleValue>4.27</ids:simpleValue>
+				</ids:value>
+			</ids:extension> 
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_selection</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Heat source</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_selection</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Type</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Refrigerant</ids:simpleValue>
+				</ids:baseName>>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_placement</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Installation location</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Range of function</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Nominal heating output</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_selection</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>System design</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_document</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Investment cost</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Sound level (outdoor)</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Refrigerant safty class</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_document</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Operating cost info</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_selection</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Drive energy</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Heating water temperature differential</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Min. heat source temperature</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_document</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Automation and control systems</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Refrigerant global warming potential (GWP)</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Nominal energy efficiency ratio (EER)</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Nominal cooling output</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_document</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Output control</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Backup heating source</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Energy efficiency label (ErP data)</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Max. heat source temperature</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Backup heating output</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Starting current</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCTEXT">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Electrical connection</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Sound level (indoor)</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Min. supply temperature in heating mode</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_dimention</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Mass</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Min. supply temperature in cooling mode</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_product-element-data</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Refrigerant capacity</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_dimention</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Height</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_dimension</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Width</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+			<ids:property dataType="IFCREAL">
+				<ids:propertySet>
+					<ids:simpleValue>Pset_dimension</ids:simpleValue>
+				</ids:propertySet>
+				<ids:baseName>
+					<ids:simpleValue>Depth</ids:simpleValue>
+				</ids:baseName>
+			</ids:property>
+		</ids:requirements>
+	</ids:specification>
+</ids:specifications>
